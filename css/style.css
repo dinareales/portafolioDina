@@ -89,3 +89,20 @@ body{
 .clear {
     color: #00814b;
 }
+.about-me{
+    font-family: "Comfortaa", cursive;
+}
+.about{
+    text-align: center;
+    padding: 20px 0 60px 0;
+    max-width: 650px;
+}
+.title{
+    font-size: 30px;
+    font-family: "Prompt", sans-serif;
+    text-transform: uppercase;
+}
+.about p{
+    font-size: 15px;
+    line-height: 2.3;
+}

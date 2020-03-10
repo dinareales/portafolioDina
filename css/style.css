@@ -81,13 +81,13 @@ body{
     margin: 0;
 }
 .background h3{
-    color: #5b3893;
+    color: #00814b;
     font-weight: bold;
     font-size: 20px;
     margin: 8px;
 }
 .clear {
-    color: #00814b;
+    color: #5b3893;
 }
 .about-me{
     font-family: "Comfortaa", cursive;
@@ -105,4 +105,27 @@ body{
 .about p{
     font-size: 15px;
     line-height: 2.3;
+}
+.number-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    font-family: "Raleway", sans-serif;
+}
+.number-container li{
+    list-style: none;
+    line-height: 1.5;
+    text-align: center;
+    position: relative;
+}
+.number{
+    font-size: 45px;
+}
+.subtitle {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    color: #20b2aa;
+    border-bottom: 4px solid #20b2aa;
 }

@@ -186,3 +186,41 @@ body{
     top: 50%;
     vertical-align: middle;
 }
+.footer{
+    background-color: #20b2aa;
+    text-align: center;
+    padding: 50px 0;
+}
+.footer-list li{
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 10px 15px;
+    font-family: "Comfortaa", cursive;
+    font-size: 19px;
+}
+.footer-list a{
+    color: white;
+    text-decoration: none;
+}
+.footer-list h3{
+    padding: 10px 0;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: "Comfortaa", serif;
+    font-size: 21px;
+}
+.footer-list .networks a{
+    color: white;
+}
+.networks{
+    align-items: center;
+    padding: 15px 30px;
+    text-align: center;
+}
+.networks a{
+    text-decoration: none;
+    font-size: 25px;
+    padding-right: 20px;
+    text-align: center;
+}

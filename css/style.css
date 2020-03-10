@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+.content{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.navigate{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+.main{
+    letter-spacing: 1px;
+}
+.navigate-left{
+    height: 50px;
+    font-family: "Comfortaa", cursive;
+    display: flex;
+}
+.navigate-right{
+    display: flex;
+    height: 50px;
+    font-family: "Comfortaa", cursive;
+    font-size: 16px;
+    list-style: none;
+    justify-content: space-around;
+}
+.navigate-left li{
+    display: flex;
+    padding-left: 10px;
+}
+.navigate-left a{
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+    align-items: flex-end;
+    text-transform: uppercase;
+    vertical-align: center;
+}
+.navigate-right li{
+    display: flex;
+    padding-right: 15px;
+}
+.navigate-right a{
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+    align-items: flex-end;
+    text-transform: uppercase;
+}

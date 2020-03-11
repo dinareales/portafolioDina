@@ -257,3 +257,60 @@ body{
     font-size: 25px;
     color: white;
 }
+.skills{
+    background-color: #198E88;
+    position: relative;
+}
+.skills-container{
+    display: flex;
+    height: 500px;
+}
+.technology-container{
+    align-self: center;
+    align-items: center;
+}
+.skill{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Prompt", cursive;
+}
+.skill-container{
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 1.8;
+    align-self: center;
+    color: white;
+}
+.skill h2{
+    font-size: 30px;
+    font-family: "Prompt", cursive;
+    text-align: center;
+    color: white;
+}
+.skill span{
+    border-bottom: 4px solid #20b2aa;
+    padding-bottom: 5px;
+}
+.tech-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    font-family: "Raleway", sans-serif;
+    align-items: center;
+    margin-left: 70px;
+    width: 450px;
+}
+.tech-container li{
+    justify-content: space-around;
+    list-style: none;
+    line-height: 1.5;
+    position: relative;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+

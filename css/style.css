@@ -385,11 +385,12 @@ body{
 }
 @media screen and (max-width: 600px) {
     .content{
+        display: contents;
         max-width: 400px;
         margin: 0 auto;
     }
     .background-info{
-        max-width: 350px;
+        margin: 10px;
     }
     .navigate-left{
         font-size: 16px;
@@ -417,6 +418,9 @@ body{
     }
     .info-dev h3{
         font-size: 16px;
+    }
+    .subtitle{
+        margin: 10px;
     }
 }
 @media screen and (max-width: 500px) {
@@ -454,37 +458,57 @@ body{
         padding: 80px 20px;
     }
     .tech-container{
-        max-width: 360px;
         padding-bottom: 50px;
-        padding-top: auto;
+        margin-left: 0;
+        width: 100%;
+    }
+    .social-contact{
+        padding: 20px 30px;
     }
 }
-@media screen and (max-width: 320px) {
-    .content{
-        max-width: 220px;
+@media screen and (max-width: 321px) {
+    .content {
+        display: contents;
         margin: 0 auto;
     }
-    .background{
+
+    .background {
         height: 50vh;
     }
-    .background-info{
-        max-width: 200px;
+
+    .background-info {
+        margin: 10px;
     }
-    .img-profile{
+
+    .img-profile {
         border-radius: 50%;
         width: 70px;
         height: 70px;
         margin: 0;
     }
-    .info-dev h1{
+
+    .info-dev h1 {
         font-size: 25px;
     }
-    .info-dev h3{
+
+    .info-dev h3 {
         font-size: 16px;
     }
+    .subtitle{
+        margin: 10px;
+    }
+    .tech-container{
+        padding-bottom: 0;
+        margin-left: 0;
+    }
+    .skills{
+        padding: 0;
+    }
+    .contact{
+        height: 410px;
+    }
     .social-contact{
-        padding: 0px;
-        font-size: 20px;
+        padding: 0 30px;
     }
 }
 
